@@ -2,7 +2,7 @@
 Note: This boilerplate comes with:
 
 - [x]Tailwincss
-- [ ]Pinia
+- [x]Pinia
 - [x]Vue-router
 - [ ]Vue-in18
 - [x]PWA support
