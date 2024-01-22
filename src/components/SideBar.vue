@@ -24,9 +24,9 @@
           <!-- List -->
           <ul class="space-y-1.5 p-4">
             <li>
-              <a
+              <router-link
+                to="/resume"
                 class="flex items-center gap-x-3 py-2 px-3 text-sm text-slate-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-900 dark:text-slate-400 dark:hover:text-slate-300 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="#"
               >
                 <svg
                   class="flex-shrink-0 w-4 h-4"
@@ -70,12 +70,12 @@
                   </g>
                 </svg>
                 Resume
-              </a>
+              </router-link>
             </li>
             <li>
-              <a
+              <router-link
+                to="/cover"
                 class="flex items-center gap-x-3 py-2 px-3 text-sm text-slate-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-900 dark:text-slate-400 dark:hover:text-slate-300 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                href="#"
               >
                 <svg
                   class="flex-shrink-0 w-4 h-4"
@@ -100,7 +100,7 @@
                   </g>
                 </svg>
                 Cover Letter
-              </a>
+              </router-link>
             </li>
             <li>
               <a
@@ -183,7 +183,7 @@
           <div class="py-2.5 px-7 flex justify-between">
             <p class="inline-flex items-center gap-x-2 text-xs text-green-600">
               <span class="block w-1.5 h-1.5 rounded-full bg-green-600"></span>
-              Active 12,320 people
+              0 Active people
             </p>
             <!-- settings icon -->
             <svg
@@ -222,7 +222,7 @@
               class="flex justify-between items-center gap-x-3 py-2 px-3 text-sm text-slate-700 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-900 dark:text-slate-400 dark:hover:text-slate-300 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
               href="#"
             >
-              Sign out
+              Sign in
               <svg
                 class="flex-shrink-0 w-4 h-4"
                 xmlns="http://www.w3.org/2000/svg"
