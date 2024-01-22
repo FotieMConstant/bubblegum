@@ -1,18 +1,16 @@
 <template>
   <div class="home">
-    <img class="mx-auto" alt="Vue logo" src="../assets/logo.png" />
-    <Counter />
+    <SideBar />
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import Counter from "@/components/Counter.vue"; // @ is an alias to /src
-
-export default defineComponent({
+import SideBar from "@/components/SideBar.vue";
+export default {
   name: "HomeView",
   components: {
-    Counter,
+    // Counter,
+    SideBar,
   },
-});
+};
 </script>

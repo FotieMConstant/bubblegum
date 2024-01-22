@@ -1,4 +1,4 @@
-# vue3-base-ts
+# bubblegum
 Note: This boilerplate comes with:
 
 - [x]Tailwincss
