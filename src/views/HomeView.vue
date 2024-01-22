@@ -1,16 +1,14 @@
 <template>
-  <div class="home">
-    <SideBar />
-  </div>
+  <div class="home">Home</div>
 </template>
 
 <script lang="ts">
-import SideBar from "@/components/SideBar.vue";
+// import SideBar from "@/components/SideBar.vue";
 export default {
   name: "HomeView",
   components: {
     // Counter,
-    SideBar,
+    // SideBar,
   },
 };
 </script>

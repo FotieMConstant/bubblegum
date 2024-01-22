@@ -3,7 +3,7 @@
     <nav>
       <sidebar />
     </nav>
-    <div class="bg-gray-100">
+    <div class="dark:bg-slate-900 bg-gray-50 h-full dark:text-white">
       <router-view />
     </div>
   </div>
