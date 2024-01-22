@@ -1,11 +1,23 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import ResumeIndexView from "../views/tools/resume/index.vue";
+import CoverIndexView from "../views/tools/cover-letter/index.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    name: "home",
+    name: "HomeView",
     component: HomeView,
+  },
+  {
+    path: "/resume",
+    name: "ResumeIndexView",
+    component: ResumeIndexView,
+  },
+  {
+    path: "/cover",
+    name: "CoverIndexView",
+    component: CoverIndexView,
   },
   {
     path: "/about",
