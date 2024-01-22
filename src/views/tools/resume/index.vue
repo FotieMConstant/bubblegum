@@ -1,5 +1,5 @@
 <template>
-  <div>Home of resume</div>
+  <div>WIP</div>
 </template>
 
 <script>
